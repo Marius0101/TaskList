@@ -10,7 +10,7 @@ interface Props{
 
 const InputFeild: React.FC<Props> = ({toDo, setToDo ,handleAdd}) => {
   return (
-    <form className='input' onSubmit={handleAdd}>
+    <form className='input' onSubmit={(event)=> handleAdd(event)}>
         <input type='input'
             value={toDo}
             onChange={e =>setToDo(e.target.value)}
