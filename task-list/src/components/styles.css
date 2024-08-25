@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
 .input {
     display: flex;
     width: 90%;
@@ -57,9 +58,17 @@
     font-size: 20px;
 }
 
-.toDoItem-text:focus {
+.toDoItem-input:focus {
     outline: none;
 }
+.toDoItem-input {
+    flex: 1;
+    padding:  5px;
+    border: none;
+    font-size: 20px;
+    font-family: "New Amsterdam", cursive;
+}
+
 
 .icon {
     margin-left:  10px;
