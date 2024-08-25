@@ -1,0 +1,35 @@
+.input {
+    display: flex;
+    width: 90%;
+    position: relative;
+    align-items: center;
+}
+.inputBox {
+    width: 100%;
+    border-radius: 50px;
+    padding: 20px 30px;
+    font-size: 25px;
+    border: none;
+    transition: 0.2;
+    box-shadow: inset 0 0 9px black;
+}
+
+.inputBox:focus{
+    box-shadow: 0 0 10px 1000px rgb(0, 0, 0, 0.3);
+    outline: none;
+}
+
+.inputSubmit{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    margin: 12px;
+    border-radius: 60px;
+    border: none;
+    right: -2px;
+    font-size: 15px;
+    background-color: rgb(5, 137, 5);
+    color: white;
+    transition: 0.2 all;
+    box-shadow: 0 0 10 black;
+}
