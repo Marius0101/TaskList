@@ -33,3 +33,55 @@
     transition: 0.2 all;
     box-shadow: 0 0 10 black;
 }
+
+.ListToDo {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.toDoItem {
+    display: flex;
+    width: 29.5%;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 15px;
+    background-image: url("https://img.freepik.com/premium-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg?w=900");
+}
+
+.toDoItem-text {
+    flex: 1;
+    padding:  5px;
+    border: none;
+    font-size: 20px;
+}
+
+.toDoItem-text:focus {
+    outline: none;
+}
+
+.icon {
+    margin-left:  10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .input{
+        width: 95%;
+    }
+    .ListToDo {
+        width: 95%;
+    }
+    .toDoItem {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .toDoItem {
+        width: 40%;
+    }
+}
