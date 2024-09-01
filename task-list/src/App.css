@@ -6,14 +6,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(12, 173, 12);
+  background-color: rgb(255, 255, 203);
   font-family: "New Amsterdam", cursive;
 }
 
 .heading {
   text-transform: uppercase;
   font-size: 40px;
-  color: white;
+  color: rgb(0, 0, 0);
   z-index: 1;
   text-align: center;
 }
